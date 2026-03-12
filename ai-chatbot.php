@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: AI Chatbot for Business
- * Plugin URI: https://github.com/yourusername/ai-chatbot
+ * Plugin URI: https://github.com/ducquanghuy3-sys/ai-chatbot-for-business
  * Description: AI-powered chatbot for WordPress with multi-provider support (OpenAI, Kimi, Zhipu). Features inquiry detection, email + WeChat notifications, and multilingual support (EN/CN/AR).
  * Version: 1.0.0
- * Author: Your Name
- * Author URI: https://yourwebsite.com
+ * Author: ducquanghuy3-sys
+ * Author URI: https://github.com/ducquanghuy3-sys
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: ai-chatbot
+ * Text Domain: ai-chatbot-for-business
  * Domain Path: /languages
  * Requires at least: 5.8
  * Requires PHP: 7.4
@@ -71,5 +71,5 @@ function ai_chatbot_deactivate() {
 // Load text domain for translations
 add_action('init', 'ai_chatbot_load_textdomain');
 function ai_chatbot_load_textdomain() {
-    load_plugin_textdomain('ai-chatbot', false, dirname(AI_CHATBOT_BASENAME) . '/languages');
+    load_plugin_textdomain('ai-chatbot-for-business', false, dirname(AI_CHATBOT_BASENAME) . '/languages');
 }

@@ -1,8 +1,8 @@
 === AI Chatbot for Business ===
-Contributors: yourusername
+Contributors: ducquanghuy3-sys
 Tags: chatbot, ai, artificial intelligence, customer service, chat, assistant, openai, chatgpt, support, automation
 Requires at least: 5.8
-Tested up to: 6.7
+Tested up to: 6.9
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -117,8 +117,8 @@ This plugin is licensed under the GPL v2 or later.
 
 == Credits ==
 
-Developed by [Your Name]
+Developed by ducquanghuy3-sys
 AI icons powered by external providers
 
 == Donate link ==
-https://yourwebsite.com/donate
+https://github.com/ducquanghuy3-sys/ai-chatbot-for-business
