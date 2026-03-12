@@ -1,0 +1,260 @@
+# Copyright (C) 2024 Your Name
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Chatbot for Business 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yourusername/ai-chatbot/issues\n"
+"POT-Creation-Date: 2024-03-12T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: ai-chatbot\n"
+"X-Generator: WP-CLI 2.8.1\n"
+
+#. Plugin Name of the plugin
+msgid "AI Chatbot for Business"
+msgstr ""
+
+#. Plugin Description of the plugin
+msgid "AI-powered chatbot for WordPress with multi-provider support (OpenAI, Kimi, Zhipu). Features inquiry detection, email + WeChat notifications, and multilingual support (EN/CN/AR)."
+msgstr ""
+
+#: ai-chatbot.php:62
+msgid "Hi! 👋 Welcome to our website. How can I help you today?"
+msgstr ""
+
+#: includes/class-main.php:79
+msgid "Message cannot be empty."
+msgstr ""
+
+#: includes/class-main.php:125
+msgid "You do not have permission to test API."
+msgstr ""
+
+#: includes/class-main.php:135
+msgid "Please enter API Key first."
+msgstr ""
+
+#: includes/class-main.php:146
+msgid "API test successful!"
+msgstr ""
+
+#: includes/class-main.php:147
+msgid "API test failed. Please check API Key and model name."
+msgstr ""
+
+#: includes/class-main.php:180
+msgid "Type your message..."
+msgstr ""
+
+#: includes/class-main.php:536
+msgid "Settings saved!"
+msgstr ""
+
+#: includes/class-main.php:546
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/class-main.php:546
+msgid "AI Configuration"
+msgstr ""
+
+#: includes/class-main.php:546
+msgid "Notification Settings"
+msgstr ""
+
+#: includes/class-main.php:549
+msgid "Enable Chatbot"
+msgstr ""
+
+#: includes/class-main.php:552
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-main.php:557
+msgid "Welcome Message"
+msgstr ""
+
+#: includes/class-main.php:560
+msgid "Message shown when visitors first open the chat"
+msgstr ""
+
+#: includes/class-main.php:563
+msgid "Input Placeholder"
+msgstr ""
+
+#: includes/class-main.php:568
+msgid "Position"
+msgstr ""
+
+#: includes/class-main.php:571
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/class-main.php:572
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/class-main.php:579
+msgid "AI Provider"
+msgstr ""
+
+#: includes/class-main.php:582
+msgid "Zhipu AI (GLM)"
+msgstr ""
+
+#: includes/class-main.php:583
+msgid "Kimi (Moonshot)"
+msgstr ""
+
+#: includes/class-main.php:584
+msgid "OpenAI (GPT)"
+msgstr ""
+
+#: includes/class-main.php:589
+msgid "API Key"
+msgstr ""
+
+#: includes/class-main.php:592
+msgid "Model Name"
+msgstr ""
+
+#: includes/class-main.php:600
+msgid "Test Connection"
+msgstr ""
+
+#: includes/class-main.php:602
+msgid "Test API Connection"
+msgstr ""
+
+#: includes/class-main.php:607
+msgid "System Prompt"
+msgstr ""
+
+#: includes/class-main.php:610
+msgid "Customize AI's role and behavior. Leave empty to use default settings."
+msgstr ""
+
+#: includes/class-main.php:619
+msgid "Email Notification"
+msgstr ""
+
+#: includes/class-main.php:622
+msgid "Email address to receive inquiry notifications"
+msgstr ""
+
+#: includes/class-main.php:625
+msgid "WeChat Notification (ServerChan)"
+msgstr ""
+
+#: includes/class-main.php:630
+msgid "Get SendKey"
+msgstr ""
+
+#: includes/class-main.php:635
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-main.php:651
+msgid "Testing..."
+msgstr ""
+
+#: includes/class-main.php:652
+msgid "Connecting to API..."
+msgstr ""
+
+#: includes/class-main.php:680
+msgid "Network error"
+msgstr ""
+
+#: includes/class-ai-adapter.php:43
+msgid "Please configure API Key in settings."
+msgstr ""
+
+#: includes/class-ai-adapter.php:62
+msgid "Unknown AI provider."
+msgstr ""
+
+#: includes/class-ai-adapter.php:110
+#: includes/class-ai-adapter.php:148
+#: includes/class-ai-adapter.php:186
+msgid "Error: "
+msgstr ""
+
+#: includes/class-ai-adapter.php:117
+#: includes/class-ai-adapter.php:155
+#: includes/class-ai-adapter.php:193
+msgid "API request failed. Please check your configuration."
+msgstr ""
+
+#: includes/class-notifier.php:109
+msgid "[%s] New Inquiry from Website Chatbot"
+msgstr ""
+
+#: includes/class-notifier.php:112
+msgid "You have received a new inquiry from the website chatbot.\n\n"
+msgstr ""
+
+#: includes/class-notifier.php:115
+msgid "Message: %s\n"
+msgstr ""
+
+#: includes/class-notifier.php:119
+msgid "Page: %s\n"
+msgstr ""
+
+#: includes/class-notifier.php:123
+msgid "\nTime: %s\n"
+msgstr ""
+
+#: includes/class-notifier.php:142
+msgid "[%s] New Website Inquiry"
+msgstr ""
+
+#: includes/class-notifier.php:145
+msgid "New Inquiry"
+msgstr ""
+
+#: includes/class-notifier.php:146
+msgid "Message:"
+msgstr ""
+
+#: includes/class-notifier.php:150
+msgid "Page:"
+msgstr ""
+
+#: includes/class-notifier.php:154
+msgid "Time:"
+msgstr ""
+
+#: templates/chatbot-widget.php:28
+msgid "Open chat"
+msgstr ""
+
+#: templates/chatbot-widget.php:40
+msgid "AI Assistant"
+msgstr ""
+
+#: templates/chatbot-widget.php:41
+msgid "Online"
+msgstr ""
+
+#: templates/chatbot-widget.php:45
+msgid "Minimize"
+msgstr ""
+
+#: templates/chatbot-widget.php:52
+msgid "Close"
+msgstr ""
+
+#: templates/chatbot-widget.php:79
+msgid "Type your message"
+msgstr ""
+
+#: templates/chatbot-widget.php:82
+msgid "Send message"
+msgstr ""
